@@ -1,7 +1,9 @@
 import { Header } from "./Header"
 import { Home } from "./Home"
 import { Explore } from "./Explore"
+import {register} from 'swiper/element/bundle'
 
+register()
 function App() {
 
   return (

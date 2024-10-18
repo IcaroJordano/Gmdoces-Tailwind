@@ -1,9 +1,15 @@
+import { Header } from "./Header"
+import { Home } from "./Home"
+import { Explore } from "./Explore"
+
 function App() {
 
   return (
-    <>
-    <h1 className="text-3xl text-red-600" >Hello World</h1>
-    </>
+    <div className="p-0 m-0 bg-neutral-100">
+      <Header></Header>
+      <Home></Home>
+      <Explore></Explore>
+    </div>
   )
 }
 
